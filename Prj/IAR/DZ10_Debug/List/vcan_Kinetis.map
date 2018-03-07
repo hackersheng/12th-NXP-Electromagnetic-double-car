@@ -1,0 +1,946 @@
+###############################################################################
+#
+# IAR ELF Linker V8.10.1.12857/W32 for ARM                30/Jan/2018  16:12:39
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\xujiagen\AppData\Local\Temp\EWFF5.tmp
+#        (H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\car1_param.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\car2_param.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\car3_param.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\current.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\freecars_uart.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\fuzzy.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\LQ_OLED.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\main.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\misc.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_can.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_conf.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_dac.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_flexbus.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_it.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_port.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_rtc.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_sdhc.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\params.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_connection.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_control.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_distance.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_flash.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_ftm.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_oled.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_pid.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_pit.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_ring.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\user_sys.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_camera.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_computer.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_key.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_LED.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_OV7725_Eagle.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\VCAN_SCCB.o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#        --map
+#        H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#        --config "H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\config
+#        files\256KB_Pflash_256KB_Dflash.icf" --entry __iar_program_start --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"A1":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from         0x00000000
+                 to           0x00040000
+                 repeat       2
+                 displacement 0x10000000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff8410 to 0x20008000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+initialize manually with packing = copy, complex ranges { section .textrw };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A1":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418     0x8
+
+"P1":                                       0x9f00
+  .text                ro code  0x00000418  0x151c  user_control.o [1]
+  .text                ro code  0x00001934   0x2bc  MK60_adc.o [1]
+  .text                ro code  0x00001bf0   0x2fc  freecars_uart.o [1]
+  .text                ro code  0x00001eec   0x320  user_sys.o [1]
+  .text                ro code  0x0000220c   0xbec  user_oled.o [1]
+  .text                ro code  0x00002df8   0x304  user_pit.o [1]
+  .text                ro code  0x000030fc     0x8  abs.o [3]
+  .text                ro code  0x00003104   0x2b0  fuzzy.o [1]
+  .text                ro code  0x000033b4    0x24  S32ToFlt.o [4]
+  .text                ro code  0x000033d8    0xd8  FltMul.o [4]
+  .text                ro code  0x000034b0    0xfc  FltDiv.o [4]
+  .text                ro code  0x000035ac    0x2a  FltToS32.o [4]
+  .text                ro code  0x000035d8    0x1a  U32ToDbl.o [4]
+  .text                ro code  0x000035f4   0x228  user_distance.o [1]
+  .text                ro code  0x0000381c   0x1a2  DblMul.o [4]
+  .text                ro code  0x000039c0    0xe2  DblSub.o [4]
+  .text                ro code  0x00003aa4   0x178  DblAdd.o [4]
+  .text                ro code  0x00003c1c    0x3a  DblToS32.o [4]
+  Veneer               ro code  0x00003c58     0x8  - Linker created -
+  Veneer               ro code  0x00003c60     0x8  - Linker created -
+  .text                ro code  0x00003c68   0x144  MK60_conf.o [1]
+  .text                ro code  0x00003dac    0xbc  MK60_port.o [1]
+  .text                ro code  0x00003e68    0x22  S32ToDbl.o [4]
+  .text                ro code  0x00003e8c   0x246  DblDiv.o [4]
+  .text                ro code  0x000040d4   0x2ac  MK60_uart.o [1]
+  .text                ro code  0x00004380   0x1c0  MK60_gpio.o [1]
+  .text                ro code  0x00004540   0x144  user_ftm.o [1]
+  Veneer               ro code  0x00004684     0x8  - Linker created -
+  .text                ro code  0x0000468c   0x268  user_flash.o [1]
+  .text                ro code  0x000048f4   0x300  current.o [1]
+  .text                ro code  0x00004bf4    0x20  DblCmpEq.o [4]
+  .text                ro code  0x00004c14    0x64  MK60_SysTick.o [1]
+  .text                ro code  0x00004c78   0x610  LQ_OLED.o [1]
+  .text                ro code  0x00005288   0x2f0  user_pid.o [1]
+  .text                ro code  0x00005578   0x190  MK60_PIT.o [1]
+  .text                ro code  0x00005708    0x50  misc.o [1]
+  .text                ro code  0x00005758     0x6  ABImemclr4.o [5]
+  .text                ro code  0x00005760    0x70  VCAN_LED.o [1]
+  .text                ro code  0x000057d0    0x28  printf.o [3]
+  .text                ro code  0x000057f8    0x9c  VCAN_key.o [1]
+  .text                ro code  0x00005894   0x508  MK60_ftm.o [1]
+  .text                ro code  0x00005d9c    0x32  ABImemset48.o [5]
+  .text                ro code  0x00005dd0   0xc0e  xprintflarge_nomb.o [3]
+  .text                ro code  0x000069e0    0x16  strchr.o [5]
+  .text                ro code  0x000069f8    0x44  xfail_s.o [3]
+  .text                ro code  0x00006a3c    0x36  strlen.o [5]
+  .text                ro code  0x00006a74    0x58  memchr.o [5]
+  .text                ro code  0x00006acc    0xee  I64DivMod.o [5]
+  .text                ro code  0x00006bbc    0xa6  ABImemcpy.o [5]
+  .text                ro code  0x00006c64    0x70  frexp.o [4]
+  .text                ro code  0x00006cd4    0x2e  DblCmpLe.o [4]
+  .text                ro code  0x00006d04    0x28  DblToU32.o [4]
+  .text                ro code  0x00006d2c     0xc  xlocale_c.o [3]
+  .text                ro code  0x00006d38     0xe  div.o [3]
+  .text                ro code  0x00006d46     0x6  abort.o [3]
+  .text                ro code  0x00006d4c     0x2  I64DivZer.o [5]
+  .text                ro code  0x00006d50     0xc  XXexit.o [5]
+  .data_init                    0x00006d5c   0x8b8  <Block>
+    Initializer bytes  const    0x00006d5c   0x8b8  <for .data-1>
+  Veneer               ro code  0x00007614     0x8  - Linker created -
+  .text                ro code  0x0000761c   0x3d8  MK60_mcg.o [1]
+  .text                ro code  0x000079f4   0x2a4  main.o [1]
+  .text                ro code  0x00007c98   0x1a0  user_connection.o [1]
+  .text                ro code  0x00007e38    0x4c  strcpy.o [5]
+  .text                ro code  0x00007e84    0xa0  user_ring.o [1]
+  .rodata              const    0x00007f24   0x284  car1_param.o [1]
+  .rodata              const    0x000081a8   0x284  car1_param.o [1]
+  .rodata              const    0x0000842c   0x284  car1_param.o [1]
+  .rodata              const    0x000086b0   0x284  car1_param.o [1]
+  .rodata              const    0x00008934   0x284  car1_param.o [1]
+  .rodata              const    0x00008bb8   0x284  car1_param.o [1]
+  .rodata              const    0x00008e3c   0x284  car1_param.o [1]
+  .rodata              const    0x000090c0   0x284  car1_param.o [1]
+  .rodata              const    0x00009344   0x284  params.o [1]
+  .rodata              const    0x000095c8   0x284  params.o [1]
+  .rodata              const    0x0000984c   0x228  LQ_OLED.o [1]
+  CodeRelocate                  0x00009a74   0x1c8  <Block>
+    Initializer bytes  const    0x00009a74   0x1c8  <for CodeRelocateRam-1>
+  .text                ro code  0x00009c3c   0x12c  system_MK60DZ10.o [1]
+  .text                ro code  0x00009d68    0x40  MK60_wdog.o [1]
+  .rodata              const    0x00009da8    0x4c  MK60_flash.o [1]
+  .rodata              const    0x00009df4    0x4c  MK60_SysTick.o [1]
+  .rodata              const    0x00009e40    0x48  MK60_adc.o [1]
+  .rodata              const    0x00009e88    0x48  MK60_ftm.o [1]
+  .rodata              const    0x00009ed0    0x48  MK60_gpio.o [1]
+  .rodata              const    0x00009f18    0x48  MK60_PIT.o [1]
+  .rodata              const    0x00009f60    0x48  MK60_uart.o [1]
+  .rodata              const    0x00009fa8    0x44  misc.o [1]
+  .text                ro code  0x00009fec    0x40  zero_init3.o [5]
+  .rodata              const    0x0000a02c    0x3c  MK60_conf.o [1]
+  .text                ro code  0x0000a068    0x28  data_init.o [5]
+  .rodata              const    0x0000a090    0x24  MK60_conf.o [1]
+  .iar.init_table      const    0x0000a0b4    0x10  - Linker created -
+  .rodata              const    0x0000a0c4    0x20  MK60_conf.o [1]
+  .rodata              const    0x0000a0e4    0x1c  main.o [1]
+  .rodata              const    0x0000a100    0x1c  main.o [1]
+  .text                ro code  0x0000a11c    0x1a  cmain.o [5]
+  .text                ro code  0x0000a136     0x4  low_level_init.o [3]
+  .text                ro code  0x0000a13a     0x4  exit.o [3]
+  .text                ro code  0x0000a140     0xa  cexit.o [5]
+  .rodata              const    0x0000a14c    0x18  main.o [1]
+  .rodata              const    0x0000a164    0x18  main.o [1]
+  .rodata              const    0x0000a17c    0x18  user_flash.o [1]
+  .text                ro code  0x0000a194    0x16  xprout.o [3]
+  .text                ro code  0x0000a1ac     0xc  putchar.o [3]
+  .rodata              const    0x0000a1b8    0x14  main.o [1]
+  .rodata              const    0x0000a1cc    0x14  MK60_conf.o [1]
+  .rodata              const    0x0000a1e0    0x10  main.o [1]
+  .rodata              const    0x0000a1f0    0x10  main.o [1]
+  .rodata              const    0x0000a200    0x10  main.o [1]
+  .rodata              const    0x0000a210     0xc  main.o [1]
+  .rodata              const    0x0000a21c     0xc  main.o [1]
+  .rodata              const    0x0000a228     0xc  main.o [1]
+  .rodata              const    0x0000a234     0xc  main.o [1]
+  .rodata              const    0x0000a240     0xc  main.o [1]
+  .rodata              const    0x0000a24c     0xc  main.o [1]
+  .rodata              const    0x0000a258     0xc  main.o [1]
+  .rodata              const    0x0000a264     0xc  main.o [1]
+  .rodata              const    0x0000a270     0xc  user_oled.o [1]
+  .rodata              const    0x0000a27c     0xc  user_oled.o [1]
+  .text                ro code  0x0000a288     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000a294     0x8  LQ_OLED.o [1]
+  .rodata              const    0x0000a29c     0x8  main.o [1]
+  .rodata              const    0x0000a2a4     0x8  main.o [1]
+  .rodata              const    0x0000a2ac     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2b4     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2bc     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2c4     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2cc     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2d4     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2dc     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2e4     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2ec     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2f4     0x8  user_oled.o [1]
+  .rodata              const    0x0000a2fc     0x8  user_oled.o [1]
+  .rodata              const    0x0000a304     0x8  user_oled.o [1]
+  .rodata              const    0x0000a30c     0x8  user_oled.o [1]
+  .rodata              const    0x0000a314     0x4  xlocale_c.o [3]
+  .rodata              const    0x0000a318     0x0  zero_init3.o [5]
+                              - 0x0000a318  0x9f00
+
+"P2", part 1 of 2:                           0xa80
+  .data                         0x1fff8410   0x8b8  <Block>
+    .data-1                     0x1fff8410   0x8b7  <Init block>
+      .data            inited   0x1fff8410    0x48  freecars_uart.o [1]
+      .data            inited   0x1fff8458     0x8  MK60_adc.o [1]
+      .data            inited   0x1fff8460   0x708  MK60_conf.o [1]
+      .data            inited   0x1fff8b68     0xc  MK60_ftm.o [1]
+      .data            inited   0x1fff8b74    0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff8b88    0x44  MK60_mcg.o [1]
+      .data            inited   0x1fff8bcc     0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff8bd0    0x14  MK60_port.o [1]
+      .data            inited   0x1fff8be4    0x18  MK60_uart.o [1]
+      .data            inited   0x1fff8bfc    0x10  params.o [1]
+      .data            inited   0x1fff8c0c     0x4  user_ftm.o [1]
+      .data            inited   0x1fff8c10     0x4  user_ftm.o [1]
+      .data            inited   0x1fff8c14     0x8  VCAN_key.o [1]
+      .data            inited   0x1fff8c1c     0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff8c20    0x38  xlocale_c.o [3]
+      .data            inited   0x1fff8c58    0x48  xfiles.o [3]
+      .data            inited   0x1fff8ca0     0x2  current.o [1]
+      .data            inited   0x1fff8ca2     0x2  current.o [1]
+      .data            inited   0x1fff8ca4     0x2  current.o [1]
+      .data            inited   0x1fff8ca6     0x2  user_control.o [1]
+      .data            inited   0x1fff8ca8     0x2  user_control.o [1]
+      .data            inited   0x1fff8caa     0x2  user_control.o [1]
+      .data            inited   0x1fff8cac     0x2  user_distance.o [1]
+      .data            inited   0x1fff8cae     0x2  user_pid.o [1]
+      .data            inited   0x1fff8cb0     0x2  user_pid.o [1]
+      .data            inited   0x1fff8cb2     0x2  user_pid.o [1]
+      .data            inited   0x1fff8cb4     0x2  user_ring.o [1]
+      .data            inited   0x1fff8cb6     0x2  user_ring.o [1]
+      .data            inited   0x1fff8cb8     0x2  user_ring.o [1]
+      .data            inited   0x1fff8cba     0x2  user_ring.o [1]
+      .data            inited   0x1fff8cbc     0x2  user_ring.o [1]
+      .data            inited   0x1fff8cbe     0x1  freecars_uart.o [1]
+      .data            inited   0x1fff8cbf     0x1  main.o [1]
+      .data            inited   0x1fff8cc0     0x1  user_connection.o [1]
+      .data            inited   0x1fff8cc1     0x1  user_connection.o [1]
+      .data            inited   0x1fff8cc2     0x1  user_distance.o [1]
+      .data            inited   0x1fff8cc3     0x1  user_oled.o [1]
+      .data            inited   0x1fff8cc4     0x1  user_oled.o [1]
+      .data            inited   0x1fff8cc5     0x1  user_pit.o [1]
+      .data            inited   0x1fff8cc6     0x1  user_ring.o [1]
+  CodeRelocateRam               0x1fff8cc8   0x1c8  <Block>
+    CodeRelocateRam-1           0x1fff8cc8   0x1c8  <Init block>
+      Veneer           inited   0x1fff8cc8     0x8  - Linker created -
+      Veneer           inited   0x1fff8cd0     0x8  - Linker created -
+      .textrw          inited   0x1fff8cd8   0x168  MK60_flash.o [1]
+      .textrw          inited   0x1fff8e40    0x50  MK60_mcg.o [1]
+                              - 0x1fff8e90   0xa80
+
+"P2", part 2 of 2:                           0x828
+  .bss                          0x1fff8e90   0x828  <Block>
+    .bss               zero     0x1fff8e90    0x48  user_sys.o [1]
+    .bss               zero     0x1fff8ed8     0x8  current.o [1]
+    .bss               zero     0x1fff8ee0     0x8  current.o [1]
+    .bss               zero     0x1fff8ee8    0x24  freecars_uart.o [1]
+    .bss               zero     0x1fff8f0c    0x6c  freecars_uart.o [1]
+    .bss               zero     0x1fff8f78   0x400  LQ_OLED.o [1]
+    .bss               zero     0x1fff9378    0x20  main.o [1]
+    .bss               zero     0x1fff9398     0x4  main.o [1]
+    .bss               zero     0x1fff939c    0x10  main.o [1]
+    .bss               zero     0x1fff93ac     0xc  MK60_ftm.o [1]
+    .bss               zero     0x1fff93b8     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff93bc     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff93c0     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff93c4     0x8  user_connection.o [1]
+    .bss               zero     0x1fff93cc     0x8  user_connection.o [1]
+    .bss               zero     0x1fff93d4     0x4  user_control.o [1]
+    .bss               zero     0x1fff93d8     0x4  user_control.o [1]
+    .bss               zero     0x1fff93dc     0x4  user_control.o [1]
+    .bss               zero     0x1fff93e0     0x4  user_control.o [1]
+    .bss               zero     0x1fff93e4     0x8  user_control.o [1]
+    .bss               zero     0x1fff93ec     0x4  user_control.o [1]
+    .bss               zero     0x1fff93f0    0x14  user_control.o [1]
+    .bss               zero     0x1fff9404    0xc8  user_control.o [1]
+    .bss               zero     0x1fff94cc     0xc  user_control.o [1]
+    .bss               zero     0x1fff94d8     0x8  user_distance.o [1]
+    .bss               zero     0x1fff94e0    0x68  user_flash.o [1]
+    .bss               zero     0x1fff9548     0x8  user_ftm.o [1]
+    .bss               zero     0x1fff9550    0x10  user_ftm.o [1]
+    .bss               zero     0x1fff9560    0x80  user_oled.o [1]
+    .bss               zero     0x1fff95e0     0x8  user_pid.o [1]
+    .bss               zero     0x1fff95e8     0x4  user_pid.o [1]
+    .bss               zero     0x1fff95ec     0x4  user_pid.o [1]
+    .bss               zero     0x1fff95f0     0x4  user_pit.o [1]
+    .bss               zero     0x1fff95f4     0x4  user_pit.o [1]
+    .bss               zero     0x1fff95f8     0x4  user_pit.o [1]
+    .bss               zero     0x1fff95fc     0x8  user_ring.o [1]
+    .bss               zero     0x1fff9604     0x4  user_ring.o [1]
+    .bss               zero     0x1fff9608     0x4  xfail_s.o [3]
+    .bss               zero     0x1fff960c    0x50  xfiles.o [3]
+    .bss               zero     0x1fff965c     0x2  current.o [1]
+    .bss               zero     0x1fff965e     0x2  user_control.o [1]
+    .bss               zero     0x1fff9660     0x2  user_control.o [1]
+    .bss               zero     0x1fff9662     0x2  user_control.o [1]
+    .bss               zero     0x1fff9664     0x2  user_control.o [1]
+    .bss               zero     0x1fff9666     0x2  user_control.o [1]
+    .bss               zero     0x1fff9668     0x2  user_control.o [1]
+    .bss               zero     0x1fff966a     0x2  user_control.o [1]
+    .bss               zero     0x1fff966c     0x2  user_control.o [1]
+    .bss               zero     0x1fff966e     0x2  user_control.o [1]
+    .bss               zero     0x1fff9670     0x2  user_control.o [1]
+    .bss               zero     0x1fff9672     0x2  user_control.o [1]
+    .bss               zero     0x1fff9674     0x2  user_control.o [1]
+    .bss               zero     0x1fff9676     0x2  user_control.o [1]
+    .bss               zero     0x1fff9678     0x2  user_control.o [1]
+    .bss               zero     0x1fff967a     0x2  user_control.o [1]
+    .bss               zero     0x1fff967c     0x2  user_control.o [1]
+    .bss               zero     0x1fff967e     0x2  user_control.o [1]
+    .bss               zero     0x1fff9680     0x2  user_control.o [1]
+    .bss               zero     0x1fff9682     0x2  user_control.o [1]
+    .bss               zero     0x1fff9684     0x2  user_control.o [1]
+    .bss               zero     0x1fff9686     0x2  user_control.o [1]
+    .bss               zero     0x1fff9688     0x2  user_control.o [1]
+    .bss               zero     0x1fff968a     0x2  user_control.o [1]
+    .bss               zero     0x1fff968c     0x2  user_oled.o [1]
+    .bss               zero     0x1fff968e     0x2  user_pid.o [1]
+    .bss               zero     0x1fff9690     0x2  user_pid.o [1]
+    .bss               zero     0x1fff9692     0x2  user_pid.o [1]
+    .bss               zero     0x1fff9694     0x1  main.o [1]
+    .bss               zero     0x1fff9695     0x1  main.o [1]
+    .bss               zero     0x1fff9696     0x1  main.o [1]
+    .bss               zero     0x1fff9697     0x1  main.o [1]
+    .bss               zero     0x1fff9698     0x1  main.o [1]
+    .bss               zero     0x1fff9699     0x1  main.o [1]
+    .bss               zero     0x1fff969a     0x1  user_connection.o [1]
+    .bss               zero     0x1fff969b     0x1  user_connection.o [1]
+    .bss               zero     0x1fff969c     0x1  user_control.o [1]
+    .bss               zero     0x1fff969d     0x1  user_control.o [1]
+    .bss               zero     0x1fff969e     0x1  user_control.o [1]
+    .bss               zero     0x1fff969f     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a0     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a1     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a2     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a3     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a4     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a5     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a6     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a7     0x1  user_control.o [1]
+    .bss               zero     0x1fff96a8     0x1  user_oled.o [1]
+    .bss               zero     0x1fff96a9     0x1  user_oled.o [1]
+    .bss               zero     0x1fff96aa     0x1  user_pid.o [1]
+    .bss               zero     0x1fff96ab     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96ac     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96ad     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96ae     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96af     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96b0     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96b1     0x1  user_pit.o [1]
+    .bss               zero     0x1fff96b2     0x1  user_ring.o [1]
+    .bss               zero     0x1fff96b3     0x1  user_ring.o [1]
+    .bss               zero     0x1fff96b4     0x1  user_ring.o [1]
+    .bss               zero     0x1fff96b5     0x1  user_ring.o [1]
+                              - 0x1fff96b8   0x828
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x826:
+          0x1fff8e90  0x826
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  rw code  ro data  rw data
+    ------               -------  -------  -------  -------
+H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj: [1]
+    LQ_OLED.o              1 552               560    1 024
+    MK60_PIT.o               400                72
+    MK60_SysTick.o           100                76
+    MK60_adc.o               700                80        8
+    MK60_conf.o              324             1 948    1 800
+    MK60_flash.o                      360      436
+    MK60_ftm.o             1 288                84       24
+    MK60_gpio.o              448                92       20
+    MK60_mcg.o               984       80      152       72
+    MK60_port.o              188                20       20
+    MK60_uart.o              684                96       24
+    MK60_wdog.o               64
+    VCAN_LED.o               112                 4        4
+    VCAN_key.o               156                 8        8
+    car1_param.o                             5 152
+    current.o                768                 6       24
+    freecars_uart.o          764                73      217
+    fuzzy.o                  688
+    main.o                   676               285       59
+    misc.o                    80                68
+    params.o                                 1 304       16
+    startup_MK60DZ10.o         8
+    system_MK60DZ10.o        300                         12
+    user_connection.o        416                 2       20
+    user_control.o         5 404                 6      324
+    user_distance.o          552                 3       11
+    user_flash.o             616                24      104
+    user_ftm.o               324                 8       32
+    user_oled.o            3 052               130      134
+    user_pid.o               752                 6       29
+    user_pit.o               772                 1       20
+    user_ring.o              160                11       27
+    user_sys.o               800                         72
+    vectors.o                                1 040
+    -------------------------------------------------------
+    Total:                23 132      440   11 747    4 105
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                    6
+    abs.o                      8
+    div.o                     14
+    exit.o                     4
+    low_level_init.o           4
+    printf.o                  40
+    putchar.o                 12
+    xfail_s.o                 68                          4
+    xfiles.o                                    72      152
+    xlocale_c.o               12                60       56
+    xprintflarge_nomb.o    3 086
+    xprout.o                  22
+    -------------------------------------------------------
+    Total:                 3 276               132      212
+
+m7M_tl.a: [4]
+    DblAdd.o                 376
+    DblCmpEq.o                32
+    DblCmpLe.o                46
+    DblDiv.o                 582
+    DblMul.o                 418
+    DblSub.o                 226
+    DblToS32.o                58
+    DblToU32.o                40
+    FltDiv.o                 252
+    FltMul.o                 216
+    FltToS32.o                42
+    S32ToDbl.o                34
+    S32ToFlt.o                36
+    U32ToDbl.o                26
+    frexp.o                  112
+    -------------------------------------------------------
+    Total:                 2 496
+
+rt7M_tl.a: [5]
+    ABImemclr4.o               6
+    ABImemcpy.o              166
+    ABImemset48.o             50
+    I64DivMod.o              238
+    I64DivZer.o                2
+    XXexit.o                  12
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    memchr.o                  88
+    strchr.o                  22
+    strcpy.o                  76
+    strlen.o                  54
+    zero_init3.o              64
+    -------------------------------------------------------
+    Total:                   866
+
+    Gaps                      36                 2
+    Linker created            32       16       33
+-----------------------------------------------------------
+    Grand Total:          29 838      456   11 914    4 317
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff8e90          --   Gb  - Linker created -
+.bss$$Limit             0x1fff96b8          --   Gb  - Linker created -
+.data$$Base             0x1fff8410          --   Gb  - Linker created -
+.data$$Limit            0x1fff8cc8          --   Gb  - Linker created -
+.data_init$$Base        0x00006d5c          --   Gb  - Linker created -
+.data_init$$Limit       0x00007614          --   Gb  - Linker created -
+.iar.init_table$$Base   0x0000a0b4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000a0c4          --   Gb  - Linker created -
+?main                   0x0000a11d         Code  Gb  cmain.o [5]
+ADCN                    0x1fff8458    0x8  Data  Gb  MK60_adc.o [1]
+AD_Current              0x1fff8ed8    0x8  Data  Gb  current.o [1]
+AD_Init                 0x00000419   0x40  Code  Gb  user_control.o [1]
+AD_Voltage              0x1fff9404   0xc8  Data  Gb  user_control.o [1]
+ASSERT_FAILED_STR       0x0000a090   0x24  Data  Gb  MK60_conf.o [1]
+CodeRelocate$$Base      0x00009a74          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00009c3c          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff8cc8          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff8e90          --   Gb  - Linker created -
+Cross_Flag              0x1fff96a2    0x1  Data  Gb  user_control.o [1]
+Cur_Ki                  0x1fff8ca4    0x2  Data  Gb  current.o [1]
+Cur_Kp                  0x1fff8ca2    0x2  Data  Gb  current.o [1]
+Current_Err             0x1fff8ee0    0x8  Data  Gb  current.o [1]
+Current_Zero            0x1fff8ca0    0x2  Data  Gb  current.o [1]
+Date_Buff               0x1fff9378   0x20  Data  Gb  main.o [1]
+Diagnostic_Reset_Source
+                        0x00007a2f   0xca  Code  Gb  main.o [1]
+Dir_Err                 0x1fff93e4    0x8  Data  Gb  user_control.o [1]
+Dir_Kd                  0x1fff9692    0x2  Data  Gb  user_pid.o [1]
+Dir_Kp                  0x1fff9690    0x2  Data  Gb  user_pid.o [1]
+DisFuzzyTAB             0x00009344  0x284  Data  Gb  params.o [1]
+Dis_Coeff               0x1fff8cc2    0x1  Data  Gb  user_distance.o [1]
+Distance                0x1fff94d8    0x8  Data  Gb  user_distance.o [1]
+Draw_BMP                0x00004e7d   0x86  Code  Gb  LQ_OLED.o [1]
+Emergency_Stop          0x1fff9699    0x1  Data  Gb  main.o [1]
+F6x8                    0x0000984c  0x228  Data  Gb  LQ_OLED.o [1]
+FTMN                    0x1fff8b68    0xc  Data  Gb  MK60_ftm.o [1]
+FTM_Init                0x00004541   0x34  Code  Gb  user_ftm.o [1]
+FTM_port_mux            0x00005895  0x118  Code  Lc  MK60_ftm.o [1]
+FreeCarsDataNum         0x1fff8cbe    0x1  Data  Gb  freecars_uart.o [1]
+From_Computer_Command   0x1fff9695    0x1  Data  Gb  main.o [1]
+GPIOX                   0x1fff8b74   0x14  Data  Gb  MK60_gpio.o [1]
+H_1                     0x1fff9670    0x2  Data  Gb  user_control.o [1]
+H_2                     0x1fff9672    0x2  Data  Gb  user_control.o [1]
+H_3                     0x1fff9674    0x2  Data  Gb  user_control.o [1]
+H_4                     0x1fff9676    0x2  Data  Gb  user_control.o [1]
+H_5                     0x1fff9678    0x2  Data  Gb  user_control.o [1]
+H_del                   0x1fff9680    0x2  Data  Gb  user_control.o [1]
+H_left                  0x1fff9660    0x2  Data  Gb  user_control.o [1]
+H_middle                0x1fff9664    0x2  Data  Gb  user_control.o [1]
+H_right                 0x1fff9662    0x2  Data  Gb  user_control.o [1]
+H_sum                   0x1fff967e    0x2  Data  Gb  user_control.o [1]
+Hori_ADMiddle_max       0x1fff8caa    0x2  Data  Gb  user_control.o [1]
+IrqHandler_page         0x00002439  0x162  Code  Gb  user_oled.o [1]
+KEY_PTxn                0x1fff8c14    0x8  Data  Gb  VCAN_key.o [1]
+LCD_DLY_ms              0x00004d85   0x1c  Code  Gb  LQ_OLED.o [1]
+LCD_Fill                0x00004d45   0x40  Code  Gb  LQ_OLED.o [1]
+LCD_Init                0x00004da1   0xdc  Code  Gb  LQ_OLED.o [1]
+LCD_Port_Init           0x00004f03   0x4a  Code  Gb  LQ_OLED.o [1]
+LCD_Set_Pos             0x00004d1b   0x2a  Code  Gb  LQ_OLED.o [1]
+LCD_WrCmd               0x00004ccd   0x4e  Code  Gb  LQ_OLED.o [1]
+LCD_WrDat               0x00004c79   0x52  Code  Gb  LQ_OLED.o [1]
+LED_PTxn                0x1fff8c1c    0x4  Data  Gb  VCAN_LED.o [1]
+LOCK_Cnt                0x1fff96b3    0x1  Data  Gb  user_ring.o [1]
+Last_Road_Type          0x1fff96a7    0x1  Data  Gb  user_control.o [1]
+LoadInt                 0x00005f67   0x7a  Code  Lc  xprintflarge_nomb.o [3]
+MODE                    0x1fff96a5    0x1  Data  Gb  user_control.o [1]
+Motor_Duty              0x1fff8c10    0x4  Data  Gb  user_ftm.o [1]
+NVIC_EnableIRQ          0x000079f5   0x16  Code  Lc  main.o [1]
+NVIC_EnableIRQ          0x000040d5   0x18  Code  Lc  MK60_uart.o [1]
+NVIC_EnableIRQ          0x00002df9   0x16  Code  Lc  user_pit.o [1]
+NVIC_EnableIRQ          0x00001f0b   0x16  Code  Lc  user_sys.o [1]
+NVIC_Init               0x00001f47   0x50  Code  Gb  user_sys.o [1]
+NVIC_SetPriority        0x00001f21   0x26  Code  Lc  user_sys.o [1]
+NVIC_SetPriorityGrouping
+                        0x00001eed   0x1e  Code  Lc  user_sys.o [1]
+NVIC_SystemReset        0x00003c69   0x1a  Code  Lc  MK60_conf.o [1]
+Overtake_ctrl_table     0x1fff9604    0x4  Data  Gb  user_ring.o [1]
+PIT0_IRQHandler         0x00002e0f   0xa0  Code  Gb  user_pit.o [1]
+PIT1_IRQHandler         0x00002eaf   0xce  Code  Gb  user_pit.o [1]
+PIT_Init                0x00002f7d   0x44  Code  Gb  user_pit.o [1]
+PORTX                   0x1fff8bd0   0x14  Data  Gb  MK60_port.o [1]
+RING_FLAG               0x1fff96b4    0x1  Data  Gb  user_ring.o [1]
+RING_LOCK_FLAG          0x1fff96b2    0x1  Data  Gb  user_ring.o [1]
+RING_STOP_FLAG          0x1fff96ac    0x1  Data  Gb  user_pit.o [1]
+RING_WAIT_FLAG          0x1fff96ab    0x1  Data  Gb  user_pit.o [1]
+R_s                     0x1fff965e    0x2  Data  Gb  user_control.o [1]
+Ramp_Flag               0x1fff96a1    0x1  Data  Gb  user_control.o [1]
+Rec_Date_Flag           0x1fff9696    0x1  Data  Gb  main.o [1]
+Rec_UartDate_Flag       0x1fff9697    0x1  Data  Gb  main.o [1]
+Receive_Data            0x1fff93c4    0x8  Data  Gb  user_connection.o [1]
+Receive_Data1           0x1fff93cc    0x8  Data  Gb  user_connection.o [1]
+Region$$Table$$Base     0x0000a0b4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000a0c4          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  startup_MK60DZ10.o [1]
+Ring_Cnt                0x1fff96b5    0x1  Data  Gb  user_ring.o [1]
+Road_Type               0x1fff96a6    0x1  Data  Gb  user_control.o [1]
+SYS_Init                0x00001fc7   0x42  Code  Gb  user_sys.o [1]
+SerialPortRx            0x1fff8f0c   0x6c  Data  Gb  freecars_uart.o [1]
+Set_Current             0x1fff965c    0x2  Data  Gb  current.o [1]
+Set_Distance            0x1fff8cac    0x2  Data  Gb  user_distance.o [1]
+Set_Speed               0x1fff968e    0x2  Data  Gb  user_pid.o [1]
+Set_Speed_Temp          0x1fff968c    0x2  Data  Gb  user_oled.o [1]
+Set_Speed_list          0x1fff8bfc   0x10  Data  Gb  params.o [1]
+Spd_Err                 0x1fff95e0    0x8  Data  Gb  user_pid.o [1]
+Spd_Kd                  0x1fff8cb2    0x2  Data  Gb  user_pid.o [1]
+Spd_Ki                  0x1fff8cb0    0x2  Data  Gb  user_pid.o [1]
+Spd_Kp                  0x1fff8cae    0x2  Data  Gb  user_pid.o [1]
+Spd_Result_I            0x1fff95ec    0x4  Data  Gb  user_pid.o [1]
+Spd_Result_P            0x1fff95e8    0x4  Data  Gb  user_pid.o [1]
+Speed                   0x1fff9548    0x8  Data  Gb  user_ftm.o [1]
+SpeedFuzzyTAB           0x000095c8  0x284  Data  Gb  params.o [1]
+Startline_Flag          0x1fff96b1    0x1  Data  Gb  user_pit.o [1]
+SteerFuzzyTAB0          0x00007f24  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB1          0x000081a8  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB2          0x0000842c  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB3          0x000086b0  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB4          0x00008934  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB5          0x00008bb8  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB6          0x00008e3c  0x284  Data  Gb  car1_param.o [1]
+SteerFuzzyTAB7          0x000090c0  0x284  Data  Gb  car1_param.o [1]
+Steer_Duty              0x1fff9550   0x10  Data  Gb  user_ftm.o [1]
+Stop_Flag               0x1fff8cbf    0x1  Data  Gb  main.o [1]
+Timer_4ms               0x1fff96b0    0x1  Data  Gb  user_pit.o [1]
+Timer_6ms               0x1fff96af    0x1  Data  Gb  user_pit.o [1]
+Timer_Ring              0x1fff96ad    0x1  Data  Gb  user_pit.o [1]
+Timer_Ring_Stop         0x1fff96ae    0x1  Data  Gb  user_pit.o [1]
+UART4_IRQHandler        0x00001bf1  0x24a  Code  Gb  freecars_uart.o [1]
+UARTN                   0x1fff8be4   0x18  Data  Gb  MK60_uart.o [1]
+UART_Recv_Data          0x1fff9694    0x1  Data  Gb  main.o [1]
+UartData                0x1fff8410   0x48  Data  Gb  freecars_uart.o [1]
+V_del                   0x1fff9684    0x2  Data  Gb  user_control.o [1]
+V_left                  0x1fff9666    0x2  Data  Gb  user_control.o [1]
+V_right                 0x1fff9668    0x2  Data  Gb  user_control.o [1]
+V_sum                   0x1fff9682    0x2  Data  Gb  user_control.o [1]
+_GenldLargeNoMb         0x00006701  0x24a  Code  Lc  xprintflarge_nomb.o [3]
+_LdtobLargeNoMb         0x0000649b  0x23e  Code  Lc  xprintflarge_nomb.o [3]
+_LitobLargeNoMb         0x0000634b  0x10a  Code  Lc  xprintflarge_nomb.o [3]
+_Locale_lconv           0x1fff8c20   0x38  Data  Lc  xlocale_c.o [3]
+_PrintfLargeNoMb        0x00005dd1  0x190  Code  Gb  xprintflarge_nomb.o [3]
+_Prout                  0x0000a195   0x16  Code  Gb  xprout.o [3]
+_PutcharsLargeNoMb      0x0000694b   0x2e  Code  Lc  xprintflarge_nomb.o [3]
+_PutfldLargeNoMb        0x00005fe1  0x25c  Code  Lc  xprintflarge_nomb.o [3]
+_PuttxtLargeNoMb        0x0000623d  0x10e  Code  Lc  xprintflarge_nomb.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20007ff8         Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000         Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000         Data  Gb  command line/config [2]
+__aeabi_cdcmpeq         0x00004bf5         Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x00006cd5         Code  Gb  DblCmpLe.o [4]
+__aeabi_d2iz            0x00003c1d         Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x00006d05         Code  Gb  DblToU32.o [4]
+__aeabi_dadd            0x00003aa5         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x00003e8d         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0000381d         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x000039c1         Code  Gb  DblSub.o [4]
+__aeabi_f2iz            0x000035ad         Code  Gb  FltToS32.o [4]
+__aeabi_fdiv            0x000034b1         Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x000033d9         Code  Gb  FltMul.o [4]
+__aeabi_i2d             0x00003e69         Code  Gb  S32ToDbl.o [4]
+__aeabi_i2f             0x000033b5         Code  Gb  S32ToFlt.o [4]
+__aeabi_ldiv0           0x00006d4d         Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x00005759         Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy          0x00006bbd         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x00006bdd         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x00006bdd         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0x000035d9         Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x00006acd         Code  Gb  I64DivMod.o [5]
+__cmain                 0x0000a11d         Code  Gb  cmain.o [5]
+__exit                  0x00006d51         Code  Gb  XXexit.o [5]
+__iar_Fail_s            0x000069f9   0x1e  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x00006a75         Code  Gb  memchr.o [5]
+__iar_Memset4_word      0x00005d9d         Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x00005d9d         Code  Gb  ABImemset48.o [5]
+__iar_Stdout            0x1fff8c58   0x48  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x000069e1         Code  Gb  strchr.o [5]
+__iar_dadd              0x000039d1         Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0000a069   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00003ab5         Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x00003ac7         Code  Gb  DblAdd.o [4]
+__iar_frexp             0x00006c71         Code  Gb  frexp.o [4]
+__iar_frexp64           0x00006c65         Code  Gb  frexp.o [4]
+__iar_frexpl            0x00006c71         Code  Gb  frexp.o [4]
+__iar_program_start     0x0000a289         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x00009fed   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000a137    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x0000a129         Code  Gb  cmain.o [5]
+_exit                   0x0000a141         Code  Gb  cexit.o [5]
+_main                   0x0000a133         Code  Gb  cmain.o [5]
+abort                   0x00006d47    0x6  Code  Gb  abort.o [3]
+abs                     0x000030fd    0x8  Code  Gb  abs.o [3]
+ad_check_flag           0x1fff969c    0x1  Data  Gb  user_control.o [1]
+ad_coeff                0x1fff8ca8    0x2  Data  Gb  user_control.o [1]
+ad_rec                  0x1fff94cc    0xc  Data  Gb  user_control.o [1]
+adc_init                0x00001935  0x210  Code  Gb  MK60_adc.o [1]
+adc_once                0x00001b45   0x52  Code  Gb  MK60_adc.o [1]
+adc_start               0x00001b97   0x46  Code  Lc  MK60_adc.o [1]
+assert_failed           0x00003c83   0x26  Code  Gb  MK60_conf.o [1]
+back_min                0x1fff967c    0x2  Data  Gb  user_control.o [1]
+beep_init               0x00001f97   0x18  Code  Gb  user_sys.o [1]
+beep_off                0x00001fbb    0xc  Code  Gb  user_sys.o [1]
+beep_on                 0x00001faf    0xc  Code  Gb  user_sys.o [1]
+big_ring_pos            0x1fff8cc6    0x1  Data  Gb  user_ring.o [1]
+bus_clk_khz             0x1fff93c0    0x4  Data  Gb  system_MK60DZ10.o [1]
+chabihe                 0x1fff93ec    0x4  Data  Gb  user_control.o [1]
+common_startup          0x00009c9b   0x94  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff93b8    0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff93bc    0x4  Data  Gb  system_MK60DZ10.o [1]
+create_page             0x0000230b   0x7a  Code  Gb  user_oled.o [1]
+current_adjust          0x00004b13   0xb8  Code  Gb  current.o [1]
+current_init            0x000048f5    0xa  Code  Gb  current.o [1]
+current_regulate        0x00004a23   0xf0  Code  Gb  current.o [1]
+data_updata             0x000020cd  0x120  Code  Gb  user_sys.o [1]
+default_down_fun        0x0000225b   0x36  Code  Gb  user_oled.o [1]
+default_isr             0x00003d57   0x34  Code  Gb  MK60_conf.o [1]
+default_left_fun        0x00002291   0x34  Code  Gb  user_oled.o [1]
+default_ok_fun          0x000022f9   0x12  Code  Gb  user_oled.o [1]
+default_right_fun       0x000022c5   0x34  Code  Gb  user_oled.o [1]
+default_up_fun          0x00002227   0x34  Code  Gb  user_oled.o [1]
+demacate_flag           0x1fff969d    0x1  Data  Gb  user_control.o [1]
+direction_adjust        0x000053b3  0x158  Code  Gb  user_pid.o [1]
+dis_ram                 0x1fff8f78  0x400  Data  Gb  LQ_OLED.o [1]
+dis_stack               0x1fff9560   0x80  Data  Gb  user_oled.o [1]
+display_ad              0x00002c19   0xd4  Code  Gb  user_oled.o [1]
+display_ad_down         0x00002d07    0xc  Code  Gb  user_oled.o [1]
+display_ad_ok           0x00002d1d   0x18  Code  Gb  user_oled.o [1]
+display_ad_up           0x00002ced   0x1a  Code  Gb  user_oled.o [1]
+display_ring_ctrl       0x00002a71  0x14c  Code  Gb  user_oled.o [1]
+display_ring_ctrl_down  0x00002be9   0x2c  Code  Gb  user_oled.o [1]
+display_ring_ctrl_up    0x00002bbd   0x2c  Code  Gb  user_oled.o [1]
+display_time            0x000025dd  0x1ba  Code  Gb  user_oled.o [1]
+display_time_down       0x000028f9   0xfc  Code  Gb  user_oled.o [1]
+display_time_ok         0x000029fd   0x74  Code  Gb  user_oled.o [1]
+display_time_up         0x000027ad  0x13e  Code  Gb  user_oled.o [1]
+distance_speed          0x000037a7   0x34  Code  Gb  user_distance.o [1]
+distance_speed_fuzzy    0x000035f5   0x76  Code  Gb  user_distance.o [1]
+div                     0x00006d39    0xe  Code  Gb  div.o [3]
+err_analyze             0x000012b1  0x2e8  Code  Gb  user_control.o [1]
+exit                    0x0000a13b    0x4  Code  Gb  exit.o [3]
+flash_cmd               0x1fff8cd9   0x20  Code  Gb  MK60_flash.o [1]
+flash_data              0x1fff94e0   0x68  Data  Gb  user_flash.o [1]
+flash_erase_sector      0x1fff8d29   0x58  Code  Gb  MK60_flash.o [1]
+flash_init              0x1fff8cf9   0x30  Code  Gb  MK60_flash.o [1]
+flash_write             0x1fff8d81   0x90  Code  Gb  MK60_flash.o [1]
+formula1                0x00001815   0x4e  Code  Gb  user_control.o [1]
+fputc                   0x00003ca9   0x14  Code  Gb  MK60_conf.o [1]
+frexp                   0x00006c65         Code  Gb  frexp.o [4]
+frexpl                  0x00006c65         Code  Gb  frexp.o [4]
+front_max               0x1fff967a    0x2  Data  Gb  user_control.o [1]
+front_or_after          0x1fff8cc0    0x1  Data  Gb  user_connection.o [1]
+ftm_mod                 0x1fff93ac    0xc  Data  Lc  MK60_ftm.o [1]
+ftm_pwm_duty            0x00005b3d   0xee  Code  Gb  MK60_ftm.o [1]
+ftm_pwm_init            0x000059ad  0x190  Code  Gb  MK60_ftm.o [1]
+ftm_quad_clean          0x00005d5d   0x28  Code  Gb  MK60_ftm.o [1]
+ftm_quad_get            0x00005d31   0x2c  Code  Gb  MK60_ftm.o [1]
+ftm_quad_init           0x00005c2b  0x106  Code  Gb  MK60_ftm.o [1]
+fuzzy_steer_control     0x000010fd  0x15e  Code  Gb  user_control.o [1]
+fuzzyout                0x00003105  0x2b0  Code  Gb  fuzzy.o [1]
+get_current             0x000048ff  0x124  Code  Gb  current.o [1]
+get_link                0x1fff9698    0x1  Data  Gb  main.o [1]
+get_speed               0x000045c3   0x38  Code  Gb  user_ftm.o [1]
+get_startline           0x00002017    0xa  Code  Gb  user_sys.o [1]
+get_timevar_ms          0x00003011   0xec  Code  Gb  user_pit.o [1]
+get_voltage             0x00000459  0x7c2  Code  Gb  user_control.o [1]
+gpio_get                0x000044f7   0x3e  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x00004381   0xbe  Code  Gb  MK60_gpio.o [1]
+gpio_set                0x0000443f   0x7c  Code  Gb  MK60_gpio.o [1]
+gpio_turn               0x000044bb   0x3c  Code  Gb  MK60_gpio.o [1]
+gui_page                0x1fff8cc3    0x1  Data  Gb  user_oled.o [1]
+gui_row                 0x1fff8cc4    0x1  Data  Gb  user_oled.o [1]
+key_check               0x00005865   0x2a  Code  Gb  VCAN_key.o [1]
+key_get                 0x0000584b   0x1a  Code  Gb  VCAN_key.o [1]
+key_init                0x000057f9   0x52  Code  Gb  VCAN_key.o [1]
+last_data               0x1fff8e90   0x48  Data  Gb  user_sys.o [1]
+last_front_or_after     0x1fff8cc1    0x1  Data  Gb  user_connection.o [1]
+last_ring_dir           0x1fff969f    0x1  Data  Gb  user_control.o [1]
+lcd_refresh             0x00005249   0x14  Code  Gb  LQ_OLED.o [1]
+led_init                0x00005761   0x3a  Code  Gb  VCAN_LED.o [1]
+led_turn                0x0000579b   0x32  Code  Gb  VCAN_LED.o [1]
+link_flag               0x1fff969b    0x1  Data  Gb  user_connection.o [1]
+link_success            0x1fff969a    0x1  Data  Gb  user_connection.o [1]
+ll_1                    0x1fff9686    0x2  Data  Gb  user_control.o [1]
+localeconv              0x00006d2d    0x4  Code  Gb  xlocale_c.o [3]
+lock_time               0x1fff8cc5    0x1  Data  Gb  user_pit.o [1]
+m                       0x1fff966e    0x2  Data  Gb  user_control.o [1]
+main                    0x00007af9  0x110  Code  Gb  main.o [1]
+mcg_cfg                 0x1fff8b88   0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff8bcc    0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x0000761d  0x30a  Code  Gb  MK60_mcg.o [1]
+memchr                  0x00006a75         Code  Gb  memchr.o [5]
+ml                      0x1fff966a    0x2  Data  Gb  user_control.o [1]
+mm_1                    0x1fff968a    0x2  Data  Gb  user_control.o [1]
+motor                   0x00004575   0x4e  Code  Gb  user_ftm.o [1]
+mr                      0x1fff966c    0x2  Data  Gb  user_control.o [1]
+new_lock_flag           0x1fff96a0    0x1  Data  Gb  user_control.o [1]
+obuf                    0x1fff960c   0x50  Data  Lc  xfiles.o [3]
+ok_flag                 0x1fff96a9    0x1  Data  Gb  user_oled.o [1]
+pit_close               0x000056c7   0x32  Code  Gb  MK60_PIT.o [1]
+pit_init                0x00005579   0x6c  Code  Gb  MK60_PIT.o [1]
+pit_time_get            0x0000565f   0x68  Code  Gb  MK60_PIT.o [1]
+pit_time_start          0x000055e5   0x7a  Code  Gb  MK60_PIT.o [1]
+pll_init                0x00007927   0xb2  Code  Gb  MK60_mcg.o [1]
+port_init               0x00003dad   0x4a  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x00003df7   0x6a  Code  Gb  MK60_port.o [1]
+printf                  0x000057d1   0x28  Code  Gb  printf.o [3]
+push                    0x00001e97   0x2c  Code  Gb  freecars_uart.o [1]
+putchar                 0x0000a1ad    0xc  Code  Gb  putchar.o [3]
+rank_result1            0x1fff96a3    0x1  Data  Gb  user_control.o [1]
+rank_result2            0x1fff96a4    0x1  Data  Gb  user_control.o [1]
+receive_data            0x00007ced   0xd4  Code  Gb  user_connection.o [1]
+receive_data_process    0x00007dc1   0x46  Code  Gb  user_connection.o [1]
+reset_info              0x1fff939c   0x10  Data  Gb  main.o [1]
+ring_ad_max             0x1fff8ca6    0x2  Data  Gb  user_control.o [1]
+ring_adh                0x1fff8cba    0x2  Data  Gb  user_ring.o [1]
+ring_adl                0x1fff8cbc    0x2  Data  Gb  user_ring.o [1]
+ring_angle              0x1fff95fc    0x8  Data  Gb  user_ring.o [1]
+ring_dir                0x1fff969e    0x1  Data  Gb  user_control.o [1]
+ring_td                 0x1fff8cb4    0x2  Data  Gb  user_ring.o [1]
+ring_th                 0x1fff8cb6    0x2  Data  Gb  user_ring.o [1]
+ring_tl                 0x1fff8cb8    0x2  Data  Gb  user_ring.o [1]
+road_analyze            0x00000c25  0x4cc  Code  Gb  user_control.o [1]
+rr_1                    0x1fff9688    0x2  Data  Gb  user_control.o [1]
+scale                   0x00006455   0x46  Code  Lc  xprintflarge_nomb.o [3]
+sec_hand                0x1fff9608    0x4  Data  Lc  xfail_s.o [3]
+sendtoafter             0x00007c99   0x54  Code  Gb  user_connection.o [1]
+set_pid                 0x00005289   0x5c  Code  Gb  user_pid.o [1]
+set_speed_aim           0x000015a9   0x98  Code  Gb  user_control.o [1]
+set_sys_dividers        0x1fff8e41   0x50  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x0000572b   0x22  Code  Gb  misc.o [1]
+shift_gear              0x1fff96a8    0x1  Data  Gb  user_oled.o [1]
+sonic_handler           0x000036e1   0xc6  Code  Gb  user_distance.o [1]
+sonic_init              0x0000366b   0x74  Code  Gb  user_distance.o [1]
+speed_adjust            0x000052e5   0xce  Code  Gb  user_pid.o [1]
+speed_control           0x00001661  0x1a8  Code  Gb  user_control.o [1]
+stall_flag              0x1fff96aa    0x1  Data  Gb  user_pid.o [1]
+start                   0x00009c3d   0x22  Code  Gb  system_MK60DZ10.o [1]
+start_check             0x00003cbd   0x9a  Code  Gb  MK60_conf.o [1]
+startline_init          0x00002009    0xe  Code  Gb  user_sys.o [1]
+steer                   0x000045fb   0x7a  Code  Gb  user_ftm.o [1]
+steer_limit             0x1fff8c0c    0x4  Data  Gb  user_ftm.o [1]
+strchr                  0x000069e1         Code  Gb  strchr.o [5]
+strcpy                  0x00007e39         Code  Gb  strcpy.o [5]
+strlen                  0x00006a3d         Code  Gb  strlen.o [5]
+sum                     0x1fff93f0   0x14  Data  Gb  user_control.o [1]
+switch_setting          0x00007e85   0xa0  Code  Gb  user_ring.o [1]
+sys_time                0x1fff95f0    0x4  Data  Gb  user_pit.o [1]
+sysinit                 0x00009c5f   0x3c  Code  Gb  system_MK60DZ10.o [1]
+systick_delay           0x00004c15   0x36  Code  Gb  MK60_SysTick.o [1]
+systick_delay_ms        0x00004c4b   0x18  Code  Gb  MK60_SysTick.o [1]
+time_enter_cross        0x1fff93e0    0x4  Data  Gb  user_control.o [1]
+time_enter_ramp         0x1fff93dc    0x4  Data  Gb  user_control.o [1]
+time_enter_ring         0x1fff93d4    0x4  Data  Gb  user_control.o [1]
+time_exit_ring          0x1fff93d8    0x4  Data  Gb  user_control.o [1]
+time_launch             0x1fff9398    0x4  Data  Gb  main.o [1]
+time_ring_launch        0x1fff95f8    0x4  Data  Gb  user_pit.o [1]
+time_start              0x1fff95f4    0x4  Data  Gb  user_pit.o [1]
+uSendBuf                0x1fff8ee8   0x24  Data  Gb  freecars_uart.o [1]
+uSendOnePage            0x00001e3b   0x5c  Code  Gb  freecars_uart.o [1]
+uart4_handler           0x00007a0b   0x10  Code  Gb  main.o [1]
+uart5_handler           0x00007a1b   0x14  Code  Gb  main.o [1]
+uart_getchar            0x00004301   0x1e  Code  Gb  MK60_uart.o [1]
+uart_init               0x000040ed  0x214  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x0000431f   0x1a  Code  Gb  MK60_uart.o [1]
+uart_rx_irq_en          0x00004339   0x2a  Code  Gb  MK60_uart.o [1]
+user_flash_init         0x0000468d    0x8  Code  Gb  user_flash.o [1]
+user_flash_prms         0x00004695   0xca  Code  Gb  user_flash.o [1]
+user_flash_read         0x0000479f   0xfc  Code  Gb  user_flash.o [1]
+user_flash_write        0x0000475f   0x40  Code  Gb  user_flash.o [1]
+user_key_init           0x00002021   0x54  Code  Gb  user_sys.o [1]
+user_lcd_cls            0x00004f4d   0x1c  Code  Gb  LQ_OLED.o [1]
+user_lcd_display        0x00002405   0x34  Code  Gb  user_oled.o [1]
+user_lcd_p6x8clear      0x00004fdf   0x2c  Code  Gb  LQ_OLED.o [1]
+user_lcd_p6x8num3       0x000051a9   0xa0  Code  Gb  LQ_OLED.o [1]
+user_lcd_p6x8num4       0x000050e1   0xc8  Code  Gb  LQ_OLED.o [1]
+user_lcd_p6x8num_single
+                        0x0000500b   0xca  Code  Gb  LQ_OLED.o [1]
+user_lcd_p6x8str        0x00004fa9   0x36  Code  Gb  LQ_OLED.o [1]
+user_lcd_p6x8str_single
+                        0x00004f69   0x3e  Code  Gb  LQ_OLED.o [1]
+user_led_init           0x00002075   0x2c  Code  Gb  user_sys.o [1]
+user_oled_delay         0x0000220d   0x1a  Code  Gb  user_oled.o [1]
+user_page_init          0x00002385   0x80  Code  Gb  user_oled.o [1]
+user_press_init         0x000020a1   0x2c  Code  Gb  user_sys.o [1]
+vector_str              0x1fff8460  0x708  Data  Gb  MK60_conf.o [1]
+wdog_disable            0x00009d69   0x16  Code  Gb  MK60_wdog.o [1]
+wdog_unlock             0x00009d7f   0x20  Code  Lc  MK60_wdog.o [1]
+write_vtor              0x00005709   0x22  Code  Gb  misc.o [1]
+
+
+[1] = H:\DÅÌ\20170711-1&&2\20170711-1\Prj\IAR\DZ10_Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  29 838 bytes of readonly  code memory
+     456 bytes of readwrite code memory
+  11 914 bytes of readonly  data memory
+   4 317 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
